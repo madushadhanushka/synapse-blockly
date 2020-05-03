@@ -1,0 +1,70 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="Kl_R`ZvSX.*c5obQG6GF" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">property_expression</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="g4HmKRv1_U}U4bT~1@4q">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="2{+]GjQ4f8lLn-3U`6f!">
+            <field name="TEXT">Property</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="UA]XE8BXG{v``RRe$igJ">
+            <field name="INPUTNAME">key</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="x.bo6?S/}AHkfT6sCahf">
+                <field name="TEXT">Key</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="uvL-mEm8k-!a5_;M/$eU"></shadow>
+              <block type="type_string" id="Nv-WgDU8:oGyZW|HAUI6"></block>
+            </value>
+            <next>
+              <block type="input_value" id="B%3-yjwLI2sq;scZ9ZY`">
+                <field name="INPUTNAME">value</field>
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="8_^_smhW~)JGdAJ(1awI">
+                    <field name="TEXT">Expression</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="ZQ)aM|,rxiL)]VQ4@QE]"></shadow>
+                  <block type="type_other" id="UH4~#i0yO{z~A9kakvMy">
+                    <field name="TYPE">Expression</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="})C!|~6*N=a4SWW6@g{t" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="O4cM_PkCEi-c(/UA]leH" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="/~%OJNk_M?2Xtud,taDK"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="gXWVCJ5*CS4$EjB_O#Gf"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="]Bjj_L}|2PVRU.:NR;vJ">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>

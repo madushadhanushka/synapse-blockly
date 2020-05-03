@@ -1,0 +1,165 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="Tt4hNX^S4yl:pplSEhi9" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">condition_equal</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="9jPUXN.aM.sM.o@J^ppS">
+        <field name="INPUTNAME">arg1</field>
+        <field name="ALIGN">LEFT</field>
+        <value name="TYPE">
+          <shadow type="type_null" id="o%RL8wV|1PODtw2}c/nR"></shadow>
+          <block type="type_other" id="Qe?B_F:-2ngRfh4yLs4[">
+            <field name="TYPE">Property</field>
+          </block>
+        </value>
+        <next>
+          <block type="input_dummy" id="!Dt-l|raNjx%UZYVMT*U">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_dropdown" id="[`O;as$mN:egQnXBiQ/$">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">operation</field>
+                <field name="USER0">==</field>
+                <field name="CPU0">equal</field>
+                <field name="USER1">!=</field>
+                <field name="CPU1">inequal</field>
+                <field name="USER2">&gt;</field>
+                <field name="CPU2">larger_than</field>
+                <field name="USER3">&lt;</field>
+                <field name="CPU3">less_than</field>
+                <field name="USER4">&gt;=</field>
+                <field name="CPU4">lager_than_equal</field>
+                <field name="USER5">&lt;=</field>
+                <field name="CPU5">less_than_equal</field>
+              </block>
+            </statement>
+            <next>
+              <block type="input_value" id="DOwstRlyVz}~P(8.y!WF">
+                <field name="INPUTNAME">arg2</field>
+                <field name="ALIGN">LEFT</field>
+                <value name="TYPE">
+                  <shadow type="type_null" id="Z=@pYZw_58**8niqTA[~"></shadow>
+                  <block type="type_other" id="@f(!UlI0U1[;G2jc+LFh">
+                    <field name="TYPE">Property</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="^KO|w@czay6-PNwgxn2I" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="7othY+gWdtZq#r*sBXC[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="c}VYQ9fAWve:DZy8Dcu."></shadow>
+      <block type="type_other" id="BJjqxtze%nb^b8OyKL;u">
+        <field name="TYPE">Condition</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="/O%M1beDW9B48IYM@Aw!">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="Tt4hNX^S4yl:pplSEhi9" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">condition_check</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="9jPUXN.aM.sM.o@J^ppS">
+        <field name="INPUTNAME">arg1</field>
+        <field name="ALIGN">LEFT</field>
+        <value name="TYPE">
+          <shadow type="type_null" id="o%RL8wV|1PODtw2}c/nR"></shadow>
+          <block type="type_group" id="kh~w`f$U#B=s53fM%GtX">
+            <mutation types="2"></mutation>
+            <value name="TYPE0">
+              <block type="type_other" id="Qe?B_F:-2ngRfh4yLs4[">
+                <field name="TYPE">Property</field>
+              </block>
+            </value>
+            <value name="TYPE1">
+              <block type="type_string" id="A|3soNE@Q/k4EIpK{le0"></block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="input_dummy" id="!Dt-l|raNjx%UZYVMT*U">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_dropdown" id="[`O;as$mN:egQnXBiQ/$">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">operation</field>
+                <field name="USER0">==</field>
+                <field name="CPU0">equal</field>
+                <field name="USER1">!=</field>
+                <field name="CPU1">inequal</field>
+                <field name="USER2">&gt;</field>
+                <field name="CPU2">larger_than</field>
+                <field name="USER3">&lt;</field>
+                <field name="CPU3">less_than</field>
+                <field name="USER4">&gt;=</field>
+                <field name="CPU4">lager_than_equal</field>
+                <field name="USER5">&lt;=</field>
+                <field name="CPU5">less_than_equal</field>
+              </block>
+            </statement>
+            <next>
+              <block type="input_value" id="DOwstRlyVz}~P(8.y!WF">
+                <field name="INPUTNAME">arg2</field>
+                <field name="ALIGN">LEFT</field>
+                <value name="TYPE">
+                  <shadow type="type_null" id="Z=@pYZw_58**8niqTA[~"></shadow>
+                  <block type="type_group" id="VHBg0=Ulg9h2g%t,.X`%">
+                    <mutation types="2"></mutation>
+                    <value name="TYPE0">
+                      <block type="type_other" id="@f(!UlI0U1[;G2jc+LFh">
+                        <field name="TYPE">Property</field>
+                      </block>
+                    </value>
+                    <value name="TYPE1">
+                      <block type="type_string" id="$8%X3?5i??)G!h)}*L^d"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="^KO|w@czay6-PNwgxn2I" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="7othY+gWdtZq#r*sBXC[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="{08{xw~NmN6FZIwW1Fev"></shadow>
+      <block type="type_other" id="BJjqxtze%nb^b8OyKL;u">
+        <field name="TYPE">Condition</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="/O%M1beDW9B48IYM@Aw!">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>

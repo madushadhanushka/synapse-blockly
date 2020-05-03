@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="En1HxDqUnYx{`R%lGaTC" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">get_property</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="i[WZI5:4NNnAs!)7skF,">
+        <field name="INPUTNAME">property</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="c.P{[|^E#Hd(Db|@;QW(">
+            <field name="TEXT">Get Property</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="j9P#uz9KRktwv!8EvY/B"></shadow>
+          <block type="type_string" id=")X%uN7{9hN3.g(:c#P-h"></block>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="@OPd9XMjH{gw7)Nd:Jqp" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="`,9ukd_9o:+Nu.61pRP[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="~7!KrTp@_LWKCM!V1p)G"></shadow>
+      <block type="type_other" id="4~fF3[$qmHj?Z=YC[j@1">
+        <field name="TYPE">Property</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="`jQ:EAeZlK{{O:T_1Xyn">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>

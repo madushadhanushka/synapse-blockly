@@ -1,0 +1,73 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="KXpz}O;1_u15XlIw@EL3" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">filter</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="U:C1fW9?[,#[}zXAryYB">
+        <field name="INPUTNAME">NAME</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Hx0vNHK}b5MH}*YWyMns">
+            <field name="TEXT">IF Xpath</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="?r*nrk009Z3oA_3s.U4["></shadow>
+          <block type="type_other" id="nLhBh@VI8@r}MDgOK6j(">
+            <field name="TYPE">Condition</field>
+          </block>
+        </value>
+        <next>
+          <block type="input_statement" id="xpGJ719i[Y9tD?.qiQlC">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="-lWgt5+@I,!URG{,;Hfv">
+                <field name="TEXT">Then</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="A+lSHf;`tv|I(d5n3]{n"></shadow>
+            </value>
+            <next>
+              <block type="input_statement" id="z{?Z|@!+c{Y@Z:%Of-W2">
+                <field name="INPUTNAME">NAME</field>
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="tJyB]qN/l^R:z!yqM*H5">
+                    <field name="TEXT">Else</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="NWDxK`V.U8N}@OQ;3PSf"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="rN-.*d$m(YIdg+%.btSv" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="uv,@~tsI2Sg(pk+_6PZ:" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="1fuZDO-?f6Q}HyrNjZU{"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="yk4ETC[T_-DHvOOS}caF"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="_m=CB6--w:D0qnLgXa*V">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>
